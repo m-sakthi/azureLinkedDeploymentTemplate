@@ -20,9 +20,9 @@ steps:
     location: 'South India'
     templateLocation: 'Linked artifact'
     csmFile: 'azuredeploy.json'
-    overrideParameters: '-projectName DevDeploy -linkedTemplateUri https://raw.githubusercontent.com/msv300/azureLinkedDeploymentTemplate/master/linkedStorageAccount.json'
+    overrideParameters: '-projectName msvTest -linkedTemplateUri https://raw.githubusercontent.com/msv300/azureLinkedDeploymentTemplate/master/linkedStorageAccount.json'
     deploymentMode: 'Incremental'
-    deploymentName: 'DeployPipelineTemplate'
+    deploymentName: 'devSampleDep'
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
