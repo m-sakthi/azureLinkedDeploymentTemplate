@@ -22,7 +22,7 @@ steps:
     csmFile: 'azuredeploy.json'
     overrideParameters: '-projectName msvTest -linkedTemplateUri https://raw.githubusercontent.com/msv300/azureLinkedDeploymentTemplate/master/linkedStorageAccount.json'
     deploymentMode: 'Incremental'
-    deploymentName: 'devSampleDep'
+    deploymentName: 'devDeploy'
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
